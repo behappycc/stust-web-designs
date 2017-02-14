@@ -4,6 +4,7 @@
 <title>Web Designs-網頁設計</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="static/img/wd.ico">
 
 <!-- Bootstrap -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -25,36 +26,15 @@
 
 <!-- Always shows a header, even in smaller screens. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header wd-header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <a class="mdl-navigation__link" href=""><span class="mdl-layout-title">Web Designs-網頁設計</span></a>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
-        <a class="mdl-navigation__link" href="">Syllabus</a>
-        <a class="mdl-navigation__link" href="">Assignment</a>
-        <a class="mdl-navigation__link" href="">Project</a>
-        <a class="mdl-navigation__link" href="">Course Info</a>
-        <a class="mdl-navigation__link" href="">Discussion Forums</a>
-      </nav>
-    </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Web Designs</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="http://www.pycone.com"><i class="mdl-color-text--blue-grey-400 material-icons fa fa-facebook-square fa-2x" role="presentation"></i>&nbsp facebook</a>
-      <a class="mdl-navigation__link" href="http://www.pycone.com"><i class="mdl-color-text--blue-grey-400 material-icons fa fa-github fa-2x" role="presentation"></i>&nbsp GitHub</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-    </nav>
-  </div>
+  <header class="mdl-layout__header wd-header" id="header"></header>
+  <div class="mdl-layout__drawer" id="drawer"></div>
   <main class="mdl-layout__content">
     <div class="page-content">
       <div class="wd-idea-section mdl-typography--text-center">
         <div class="logo-font wd-slogan">Web Designs-網頁設計</div>
         <div class="logo-font wd-sub-slogan">南台科技大學工業管理與資訊系</div>
         <div class="logo-font wd-sub-slogan">by Edward Lin</div>
+      </div>
     </div>
 
     <div class="wd-introduction-section mdl-typography--text-center">
@@ -303,14 +283,17 @@
     </div>
 
     <footer class="wd-footer mdl-mega-footer">
-      <div class="mdl-mega-footer--top-section">
-        <p class="mdl-typography--font-light wd-copyright">© 2017 stust.Web Designs</p>
-      </div>
+      <div class="mdl-mega-footer--top-section" id="footer"></div>
     </footer>
+
   </main>
 </div>
 
-
+<script>
+$("#header").load("header.html");
+$("#footer").load("footer.html");
+$("#drawer").load("drawer.html");
+</script>
 
 <!-- web-designs -->
 <script type="text/babel" src="static/js/index.js"></script>
