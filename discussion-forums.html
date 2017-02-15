@@ -49,7 +49,7 @@ s.setAttribute('data-timestamp', +new Date());
   <div class="mdl-layout__drawer" id="drawer"></div>
   <main class="mdl-layout__content">
     <div class="page-content">
-      <div class="wd-idea-section mdl-typography--text-center">
+      <div class="wd-discussion-forums-section mdl-typography--text-center">
         <div class="logo-font wd-slogan">Web Designs-網頁設計</div>
         <div class="logo-font wd-sub-slogan">南台科技大學工業管理與資訊系</div>
         <div class="logo-font wd-sub-slogan">by Edward Lin</div>
@@ -90,6 +90,17 @@ $("#drawer").load("drawer.html");
 
 <!-- Fontawesome -->
 <script src="https://use.fontawesome.com/013abc8a7b.js"></script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91929806-1', 'auto');
+  ga('send', 'pageview');
+</script>
 
 </body>
 </html>

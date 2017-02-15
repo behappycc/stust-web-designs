@@ -11,6 +11,51 @@
   background-size: cover;
 }
 
+.wd-discussion-forums-section {
+  position: relative;
+  height: 600px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('../img/377H.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+
+.wd-course-info-section {
+  position: relative;
+  height: 600px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('../img/374H.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+
+.wd-syllabus-section {
+  position: relative;
+  height: 600px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('../img/291H.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+
+.wd-assignment-section {
+  position: relative;
+  height: 600px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('../img/201H.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+
+.wd-project-section {
+  position: relative;
+  height: 600px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('../img/81H.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+
 .wd-slogan {
   font-size: 60px;
   padding-top: 200px;
