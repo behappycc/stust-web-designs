@@ -52,7 +52,7 @@
   height: 600px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('../img/81H.jpg') center 30% no-repeat;
+  background: url('../img/179H.jpg') center 30% no-repeat;
   background-size: cover;
 }
 
@@ -150,4 +150,22 @@ text-align: center;
   content: '';
   clear: both;
   display: block;
+}
+
+.overlay {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.display-text {
+  position: relative;
+  z-index: 9;
+  height: 700px;
+  display: table;
+  width: 100%;
 }
